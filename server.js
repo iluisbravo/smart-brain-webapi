@@ -7,9 +7,9 @@ const Clarifai =  require('clarifai');
 const db = knex({
     client: 'pg',
         connection: {
-        host : '127.0.0.1',
+        host : 'postgresql-pointy-01949',
         user : 'postgres',
-        password : 'admin123',
+        password : '',
         database : 'smart-brain'
     }
 });
