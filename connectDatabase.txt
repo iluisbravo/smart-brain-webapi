@@ -1,0 +1,25 @@
+Install knex:
+    npm install knex
+
+Info documentation:
+http://knexjs.org/
+
+Configuration:
+    const knex = require('knex');
+
+    const database = knex({
+        client: 'pg',
+            connection: {
+            host : '127.0.0.1',
+            user : 'postgres',
+            password : '',
+            database : 'smart-brain'
+        }
+    });
+
+    console.log(database.select('*').from('users'));
+
+
+sql postgres database command on CMD:
+    \c 'nameDataase' => select database
+    \d => (show all tables)

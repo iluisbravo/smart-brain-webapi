@@ -1,0 +1,17 @@
+CORS is an important concept in web security. Imagine a website superawesome.com 
+has some data that the site flowershop.com wants to access. This type of request traditionally
+wouldn’t be allowed under the browser’s same origin policy (same URI scheme). However,
+by supporting CORS requests, superawesome.com can allow bob.com to access the data.
+
+more info:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+Project Files: Github
+You can find the project files for the final SmartBrain project below.
+Please note that these files include all the changes made up to the end of Section
+24 where we integrate front end and server. You will also need to add your own Clarifai 
+API key in App.js (which is free):
+
+Front end: https://github.com/aneagoie/face-recognition-brain
+
+Back end: https://github.com/aneagoie/face-recognition-brain-api
